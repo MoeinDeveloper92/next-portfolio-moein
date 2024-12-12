@@ -57,7 +57,7 @@ const Photo = () => {
                             }}
                             transition={{
                                 repeat: Infinity,
-                                duration: 10,
+                                duration: 25,
                                 ease: "linear",
                                 repeatType: "reverse"
                             }}
