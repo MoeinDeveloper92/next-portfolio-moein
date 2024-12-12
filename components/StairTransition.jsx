@@ -24,7 +24,6 @@ const StairTransition = () => {
               ease: "easeInOut"
             }}
           >
-
           </motion.div>
         </div>
       </AnimatePresence>
