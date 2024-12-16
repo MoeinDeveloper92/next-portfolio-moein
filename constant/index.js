@@ -91,52 +91,52 @@ export const services = [
 ]
 
 
-export const about = [
-    {
-        title: "About me",
-        description: "Dummy text",
-        info: [
-            {
-                fieldName: "Name",
-                fieldValue: "Moein Samani"
-            },
-            {
-                fieldName: "Phone",
-                fieldValue: "(+49) 178 14 50301"
-            },
-            {
-                fieldName: "Experience",
-                fieldValue: "+5"
-            },
-            {
-                fieldName: "Skype",
-                fieldValue: "Moein1213"
-            },
-            {
-                fieldName: "Nationality",
-                fieldValue: "Iranisch"
-            },
-            {
-                fieldName: "email",
-                fieldValue: "moeinsamani1992@gmail.com"
-            },
-            {
-                fieldName: "Freelance",
-                fieldValue: "Available"
-            },
+export const about =
+{
+    title: "About me",
+    description: "Below you will find info which help you reach out to me ",
+    info: [
+        {
+            fieldName: "Name",
+            fieldValue: "Moein Samani"
+        },
+        {
+            fieldName: "Phone",
+            fieldValue: "(+49) 178 14 50301"
+        },
+        {
+            fieldName: "Experience",
+            fieldValue: "+5"
+        },
+        {
+            fieldName: "Skype",
+            fieldValue: "Moein1213"
+        },
+        {
+            fieldName: "Nationality",
+            fieldValue: "Iranisch"
+        },
+        {
+            fieldName: "email",
+            fieldValue: "moeinsamani1992@gmail.com"
+        },
+        {
+            fieldName: "Freelance",
+            fieldValue: "Available"
+        },
 
-            {
-                fieldName: "Languages",
-                fieldValue: "English - German"
-            }
-        ]
-    }
-]
+        {
+            fieldName: "Languages",
+            fieldValue: "English - German"
+        }
+    ]
+}
+
 
 export const experiences = {
     icon: "@assets/assets/extra/resume/badge.svg",
     title: "My Experiences",
-    description: "Dummy data",
+    description: " I am a full-stack developer specializing in backend development with a proven ability to build scalable web applications. Skilled in NestJS, Docker, CI/CD, and database management, I create efficient RESTful APIs and manage state with Redux Toolkit. My experience spans e-commerce, healthcare, and finance, where I apply design patterns and OOP to deliver maintainable solutions. A collaborative team player, I thrive in agile environments, driving projects from concept to completion with a focus on scalability and business impact.",
     items: [
         {
             company: "Petanux GmbH",
@@ -174,7 +174,7 @@ export const experiences = {
 export const education = {
     icon: '@assets/assets/extra/resume/cap.svg',
     title: "My Education",
-    description: "Add dummy data",
+    description: "For an avid learner education is an intersting part...",
     items: [
         {
             institution: "UCA Berlin",
