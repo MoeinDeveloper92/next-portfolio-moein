@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button";
-import { FiDatabase, FiDownload } from "react-icons/fi"
+import { FiDownload } from "react-icons/fi"
 import { motion } from "framer-motion"
 
 // Components
@@ -53,8 +53,14 @@ export default function Home() {
             {/* Buttons and socials */}
             <div className="flex flex-col xl:flex-row  items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase  flex items-center gap-2">
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <a
+                  href="/CV.pdf"
+                  download="CV.pdf"
+                  className="uppercase flex items-center gap-2 btn btn-outline btn-lg"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social />
@@ -69,6 +75,7 @@ export default function Home() {
         </div>
       </div>
       <Stats />
+
     </section>
   );
 }

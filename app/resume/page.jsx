@@ -71,7 +71,7 @@ const Resume = () => {
                             <div className='flex flex-col gap-[30px] xl:text-left text-center'>
                                 <h3 className='text-4xl font-bold'>{education.title}</h3>
                                 <p className='max-w-[600px]  text-white/60 mx-auto xl:mx-0'>{education.description}</p>
-                                <ScrollArea scrollbarColor={"#fff"} className="h-[300px]" >
+                                <ScrollArea className="h-[300px]" >
                                     <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
                                         {education.items.map((item, index) => (
                                             <li key={index} className='shadow-white bg-[#232329] h-[150px] py-6 px-10 rounded-xl flex-col justify-centeritesce lg:items-start gap-1

@@ -10,7 +10,7 @@ const jetBrains = JetBrains_Mono({
   subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-jetbrainsMono"
 })
-
+import ChatBot from "@/components/ChatBot";
 
 export const metadata = {
   title: "Moein-Portfolio",
@@ -24,10 +24,11 @@ export default function RootLayout({ children }) {
         className={`${jetBrains.variable} antialiased`}
       >
         <Header />
-        <StairTransition />
-        <PageTransition>
-          {children}
-        </PageTransition>
+        {/* <StairTransition /> */}
+        {/* <PageTransition> */}
+        {children}
+        {/* </PageTransition> */}
+        <ChatBot />
       </body>
     </html>
   );
