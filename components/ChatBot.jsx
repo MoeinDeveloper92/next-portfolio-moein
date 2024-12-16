@@ -29,7 +29,7 @@ const ChatBot = () => {
     }
 
     return (
-        <div className={`fixed ${chatBotOpen ? "bottom-0 max-sm:bottom-[60px]" : "bottom-[-560px] max-sm:bottom-[-500px]"}  transition-all duration-300  right-4 cursor-pointer`} >
+        <div className={`fixed ${chatBotOpen ? "bottom-0 max-sm:bottom-[1px] max-sm:right-0 " : "bottom-[-560px] max-sm:right-0  max-sm:bottom-[-560px]"}  transition-all duration-300  right-4 cursor-pointer`} >
             <form onSubmit={handleSubmit} className='flex flex-col  w-[500px] h-[600px] max-sm:w-[400px]  border-[1px] border-black rounded-md' action="">
                 <header onClick={() => setChatBotOpen((pre) => !pre)} className='h-[40px] bg-gray-500 flex justify-center items-center'>
                     <p>Chatbot</p>
